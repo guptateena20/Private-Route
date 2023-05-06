@@ -1,0 +1,98 @@
+.form_div {
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.886);
+  border-radius: 30px;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.form_div form {
+  text-align: center;
+}
+.form_div form label p {
+  font-size: 20px;
+  font-weight: 700;
+  display: inline-block;
+  margin: 40px 15px;
+  color: rgba(255, 255, 255, 0.8823529412);
+}
+.form_div form label input {
+  width: 60%;
+  padding: 10px 10px;
+  outline: none;
+  border: 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  background-color: rgb(48, 46, 46);
+  color: aliceblue;
+}
+.form_div form label input:focus {
+  border: 1px solid aliceblue;
+}
+.form_div form .login_btn {
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: 1px solid aliceblue;
+  border-radius: 30px;
+  background-color: transparent;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+.homepage_div {
+  position: absolute;
+  height: 150px;
+  width: 300px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.886);
+  border-radius: 30px;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+}
+.homepage_div .username {
+  margin: 25px 0;
+  color: aliceblue;
+}
+.homepage_div .logout_btn {
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: 1px solid aliceblue;
+  border-radius: 30px;
+  background-color: transparent;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+.page_div {
+  position: absolute;
+  height: 150px;
+  width: 300px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.886);
+  border-radius: 30px;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+}
+.page_div .page_para {
+  line-height: 150px;
+  font-size: 18px;
+  font-weight: 700;
+  color: aliceblue;
+}/*# sourceMappingURL=pages.css.map */

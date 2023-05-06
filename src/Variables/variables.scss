@@ -1,0 +1,26 @@
+@mixin commonCodeDiv($h, $w){
+    position: absolute;
+    height: $h;
+    width: $w;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.886);
+    border-radius: 30px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+@mixin commonCodeButton(){
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 1px solid aliceblue;
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    color: aliceblue;
+}
+

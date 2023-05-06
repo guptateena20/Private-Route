@@ -1,0 +1,70 @@
+@import "../Variables/variables.scss";
+
+.form_div {
+    @include commonCodeDiv(200px, 400px);
+
+    form {
+        text-align: center;
+
+        label {
+            p {
+                font-size: 20px;
+                font-weight: 700;
+                display: inline-block;
+                margin: 40px 15px;
+                color: #ffffffe1;
+            }
+
+            input {
+                width: 60%;
+                padding: 10px 10px;
+                outline: none;
+                border: 0;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                border-radius: 20px;
+                font-size: 16px;
+                letter-spacing: 0.5px;
+                background-color: rgb(48, 46, 46);
+                color: aliceblue;
+            }
+            input:focus{
+                border: 1px solid aliceblue;
+            }
+
+        }
+
+        .login_btn {
+            margin-top: 20px;
+            @include commonCodeButton();
+        }
+    }
+}
+
+
+.homepage_div{
+    @include commonCodeDiv(150px, 300px);
+    text-align: center;
+
+    .username{
+        margin: 25px 0;
+        color: aliceblue;
+
+    }
+
+    .logout_btn{
+        @include commonCodeButton();
+    }
+}
+
+.page_div{
+    @include commonCodeDiv(150px, 300px);
+    text-align: center;
+
+    .page_para{
+        line-height: 150px;
+        font-size: 18px;
+        font-weight: 700;
+        color: aliceblue;
+
+    }
+}
